@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+      width: 100%;
+      height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 190px;
+}
+.nav-logo>img{
+    width: 100%;
+}
+.nav-menu{
+    margin-left: 300px;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-ul>li{
+    list-style-type: none;
+    margin-left: 28px;
+}
+.nav-ul>li>a:hover{
+    color: #000;
+}
+.nav-ul>li>a{
+    text-decoration: none;
+    color: rgb(94, 91, 91);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login{
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login>p{
+    color: rgb(94, 91, 91);
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 15px;
+}
+.login>a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    background: linear-gradient(45deg,#df4881,#c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+}
